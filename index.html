@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Chatbot</title>
+  <link rel="preload" as="image" href="img/support_background.jpg">
+  <link rel="preload" as="image" href="img/support_helper.jpg">
+  <link rel="preload" as="image" href="img/microsoft.jpg">
+  <link rel="stylesheet" href="css.css">
+</head>
+<body>
+  <div class="itsupportBackground">
+    <div class="top-image" id="topImage"></div>
+    <div class="bottom-color"></div>
+  </div>
+
+  <div id="container">
+    <h1>Welcome to Your Chatbot</h1>
+    <div class="topics">
+      <div class="topic">
+        <img src="img/career.png" alt="IT Career Guide">
+        <p>IT Career Guide</p>
+      </div>
+      <div class="topic">
+        <img src="img/support.png" alt="System Support Helper">
+        <p>System Support Helper</p>
+      </div>
+      <div class="topic">
+        <img src="img/microsoft_logo.png" alt="Microsoft Helper">
+        <p>Microsoft Helper</p>
+      </div>
+    </div>
+  </div>
+
+<div class="chatbot-container">
+    <div class="chat-header">HelpBot 💬</div>
+    <div class="chat-window" id="chat-window">
+      <div class="message bot">Hi there! How can I help you today?</div>
+      
+    </div>
+    <div id="predefined-questions" class="predefined-questions"></div>
+    <div class="chat-input">
+      <input type="text" id="user-input" placeholder="Type your message..." />
+      <button id="SendButton">Send</button>
+    </div>
+    
+</div>
+<button id="home">Back</button>
+<script src="java.js"></script>
+
+</body>
+</html>
